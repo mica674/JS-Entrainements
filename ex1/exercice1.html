@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les entrainements JS2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+</head>
+
+<body>
+    <h1>Les entrainements JS2 - Ex1</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./exercice1.html">Exercice 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./exercice2.html">Exercice 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./exercice3.html">Exercice 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./exercice4.html">Exercice 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="./exercice5.html">Exercice 5</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="space"></div>
+
+    <h2>Ex1</h2>
+    <p>Créer un formulaire demandant un mot de passe et une confirmation de mot de passe.
+      Au clic sur un bouton, 
+      si les deux champs sont identiques, 
+      utiliser une classe css pour les entourer de vert, 
+      sinon les entourer de rouge.
+    </p>
+    
+    <div class="container-fluid h-100 bg-light text-dark">
+      <hr/>
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col">
+          <form action="">
+            <div class="text-center mb-0">
+              <label for="inputPassword" class="" id="label1">Mot de passe</label>        
+            </div>
+            <div class="text-center">
+                <input type="password" placeholder="Mets ton mot de passe !" id="inputPassword">
+            </div>
+            <div class="text-center mb-0">
+              <label for="inputConfPassword" class="" id="label2">Confirmation du mot de passe</label>        
+            </div>
+            <div class="text-center">
+                <input type="password" placeholder="Confirmes ton mot de passe !" id="inputConfPassword">
+            </div>
+            <input type="submit" class="submit" name="submit" id="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr/>
+      
+
+    <h2>RESULTAT DANS LA CONSOLE</h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="public/assets/js/entrainement.js"></script>
+</body>
+
+</html>

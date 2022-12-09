@@ -1,0 +1,38 @@
+body{
+    background: url("../img/JS.png") no-repeat;
+    background-size: auto 500px;
+}
+
+h1{
+    color: aqua;
+    font-style: italic;
+}
+
+h2
+{
+    color: rgb(0, 255, 13);
+    font-weight: bold;
+    background-color: black;
+}
+
+p{
+    color: rgb(255, 0, 0);
+    border-style: dotted;
+}
+
+.space{
+    height: 390px;
+}
+
+.borderGreen{
+    border: 3px dotted green 
+}
+
+.borderRed{
+    border: 3px dotted red;
+}
+
+.bgRed{
+    background-color: red;
+    text-decoration: white;
+}
